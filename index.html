@@ -8,7 +8,7 @@
 
     <title>The Magic 8 Ball</title>
 
-    <!--<link rel="stylesheet" href="assets/css/style.css" type="text/css" />-->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
 <body>
@@ -17,12 +17,19 @@
 
     </header>
 
-        Name: <input type="text" name="name" id="name"><br>
-        Question: <input type="text" name="question" id="question"><br><br>
-        <button onclick="myFunction();">Try it</button>
+    Name: <input type="text" name="name" id="name"><br>
+    Question: <input type="text" name="question" id="question"><br><br>
+    <button onclick="myFunction();">Try it</button>
 
-        Answer: <input type="text" name="eightBall" id="eightBall" value=""><br>
-
+    <div class="ball">
+        <div id="answer-field" class="answer-field">
+            <div id="eightBallNumber">
+                <h1>8</h1>
+            </div>
+            <p id="eightBall"></p>
+        </div>
+        
+    </div>
     <footer>
     </footer>
 

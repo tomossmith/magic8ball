@@ -12,8 +12,15 @@ function myFunction() {
     var x = document.getElementById('question').value;
     if (x == "") {
         alert("Please enter a question");
-        document.getElementById("eightBall").value = "";
+        document.getElementById("eightBall").innerHTML = "";
     } else {
+        // Start 8 Ball Number Animation
+
+
+        // Show Answer
+        var eightBallNumber = document.getElementById("eightBallNumber");
+        eightBallNumber.style.display = "none";
+
         let randomNumber = Math.floor(Math.random() * 8);
         switch (randomNumber) {
             case 0:
@@ -43,7 +50,7 @@ function myFunction() {
         }
 
         // Return generated answer into the HTML field
-        document.getElementById("eightBall").value = eightBall;
+        document.getElementById("eightBall").innerHTML = eightBall;
         console.log(eightBall)
     }
 };
