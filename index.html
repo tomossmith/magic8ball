@@ -8,6 +8,8 @@
 
     <title>The Magic 8 Ball</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 
@@ -16,26 +18,29 @@
         <!--NAVIGATION-->
 
     </header>
-
-    Name: <input type="text" name="name" id="name"><br>
-    Question: <input type="text" name="question" id="question"><br><br>
-    <button id="button" onclick="myFunction();">Try it</button>
-
-    <div class="ball">
-        <div id="answer-field" class="answer-field">
-            <div id="eightBallNumber">
-                <h1>8</h1>
+    <h1 class="page-title text-center text-white">The Magic 8 Ball</h1>
+    <div class="container border">
+        <div class="row">
+            <div class="user-input-box text-center">
+                <p class="text-white font-weight-bold">Name: &nbsp;<input type="text" name="name" id="name"></p>
+                <p class="text-white font-weight-bold">Question: &nbsp;<input type="text" name="question" id="question"></p>
+                <button class="font-weight-bold" id="button" onclick="myFunction();">Submit your question!</button>
             </div>
-            <p id="eightBall"></p>
         </div>
-        
+        <div class="row pt-5">
+            <div class="ball">
+                <div id="answer-field" class="answer-field">
+                    <div id="eightBallNumber">
+                        <span>8</span>
+                    </div>
+                    <p id="eightBall"></p>
+                </div>
+            </div>
+        </div>
     </div>
-    <footer>
-    </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="assets/js/8ball.js"></script>
-
 </body>
 
 </html>
