@@ -1,108 +1,241 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Tom Smith,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+----
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+    This is the README file for my Magic 8 Ball.
 
-## Gitpod Reminders
+<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<center><img src="static/readme-images/ow-mockups.png" alt="Website Mockup" width="80%">
 
-`python3 -m http.server`
+[CLICK HERE TO VISIT THE LIVE SITE](https://tomossmith.github.io/magic8ball/) </center>
 
-A blue button should appear to click: _Make Public_,
+----
+<br>
 
-Another blue button should appear to click: _Open Browser_.
+# Table Of Content:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- <a href="#project_goals">Project Goals</a>
+- <a href="#ux">User Experience (UX)</a>
+    - <a href="#ux-user_stories">User Stories</a>
+    - <a href="#ux-design">Design</a>
+        - <a href="#ux-design-color">Color</a>
+        - <a href="#ux-design-typography">Typography</a>
+        - <a href="#ux-design-images">Images</a>
+        - <a href="#ux-design-structure">Structure & Mockup Designs</a></a>
+        - <a href="#ux-design-amendments">Amendments To Mockup Designs During Development</a></a>
+- <a href="#features">Features</a>
+    - <a href="#features-current">Current Features</a>
+    - <a href="#features-future">Possible Future Features</a>
+- <a href="#database">Database</a>
+- <a href="#key-components">Key Components</a>
+    - <a href="#key-components-languages">Languages</a>
+    - <a href="#key-components-frameworks">Frameworks & Libraries</a>
+    - <a href="#key-components-others">Others</a>
+- <a href="#testing">Testing</a>
+    - <a href="#testing-html">HTML</a>
+    - <a href="#testing-css">CSS</a>
+    - <a href="#testing-javascript">Javascript</a>
+    - <a href="#testing-pep8">PEP8 Compliance</a>
+    - <a href="#testing-lighthouse">Overall Website Performance & Compatibility </a>
+    - <a href="#testing-responsive-design">Responsive Design</a>
+    - <a href="#testing-browser-compatibility">Browser Compatibilty</a>
+    - <a href="#testing-links">Link Testing</a>
+    - <a href="#testing-email">Email Testing</a>
+    - <a href="#testing-user-stories">User Story Testing</a>
+    - <a href="#testing-problems-during-development">Problems During Development</a>
+    - <a href="#testing-bugs">Known Bugs</a>
+- <a href="#deployment">Deployment</a>
+    - <a href="#deployment-heroku">Deployment With Heroku</a>
+    - <a href="#deployment-forking">Forking</a>
+    - <a href="#deployment-cloning">Cloning Project</a>
+- <a href="#credits">Credits</a>
+    - <a href="#credits-content">Content</a>
+    - <a href="#credits-media">Media</a>
+    - <a href="#credits-code">Code</a>
+    - <a href="#credits-acknowledgments">Acknowledgements</a>
 
-A blue button should appear to click: _Make Public_,
+----
 
-Another blue button should appear to click: _Open Browser_.
+# <span id="project_goals">Project Goals</span>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*   Design, develop and implement a full stack web application
 
-To log into the Heroku toolbelt CLI:
+*   Identify and apply necessary security features
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+*   Design a website that uses HTML, CSS, Javascript, Python & Django
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+# <span id="ux">User Experience (UX)</span>
 
-## Release History
+    This section is designed to generate possible scenarios of the typical end user that would use this website. 
+    This will help ensure end user requirements are designed into the website.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## <span id="ux-user_stories"><b>User Stories</b></span>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## <span id="ux-design"><b>Design</b></span>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* ### <span id="ux-design-color"><b>Color</b></span>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+* ### <span id="ux-design-typography"><b>Typography</b></span>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+* ### <span id="ux-design-images"><b>Images</b></span>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+* ### <span id="ux-design-structure"><b>Structure & Mockup Designs</b></span>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* ### <span id="ux-design-amendments"><b>Amendments To Mockup Designs During Development</b></span>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## <span id="features"><b>Features</b></span>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* ### <span id="features-current"><b>Current Features</b></span>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* ### <span id="features-future"><b>Possible Future Features</b></span>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## <span id="key-components"><b>Key Components</b></span>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* ### <span id="key-components-languages"><b>Languages</b></span>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    * #### [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    * #### [CSS3](https://en.wikipedia.org/wiki/CSS)
+    * #### [JavaScript](https://www.javascript.com/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* ### <span id="key-components-frameworks"><b>Frameworks & Libraries</b></span>
 
-------
+    * #### [Bootstrap](https://getbootstrap.com/)
 
-## FAQ about the uptime script
+* ### <span id="key-components-others"><b>Others</b></span>
 
-**Why have you added this script?**
+    * #### [GitHub](https://github.com/) - Repository Hosting
+    * #### [GitPod](https://www.gitpod.io/) - Development Environment
+    * #### [Website Mockup Generator](https://websitemockupgenerator.com/) - To create the opening image for the README.
+    * #### [TinyPNG](https://tinypng.com/) - Used to reduce image file sizes
+    * #### [Lighthouse](https://developers.google.com/web/tools/lighthouse) - Performance and Accessibility Reporting
+    * #### [Balsamiq](https://balsamiq.com/) - Used to build the wireframes
+    * #### [Am I Responsive](http://ami.responsivedesign.is/) - To check responsive design
+    * #### [W3 Validator](https://validator.w3.org/) - To check my HTML code
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## <span id="testing"><b>Testing</b></span>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+* ### <span id="testing-html"><b>HTML</b></span>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+    To test my HTML code, I used the [W3 Validator](https://validator.w3.org/)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    Here is the pass report:
 
-**So….?**
+    <img src="" alt="HTML Validation Report" width="80%">
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<br>
 
-**Can I opt out?**
+* ### <span id="testing-css"><b>CSS</b></span>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+    To test my CSS code, I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+    Here is the report:
 
-**Anything more?**
+    <img src="" alt="CSS Report" width="80%">
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+    <center>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+    </center>
+<br>
 
----
+* ### <span id="testing-javascript"><b>Javascript</b></span>
 
-Happy coding!
+    To test my Javascript code, I used the [JSHint Validator](https://jshint.com/)
+
+<br>
+
+* ### <span id="testing-pep8"><b>PEP8 Compliance</b></span>
+
+    To test my PEP8 compliance, I used [PEP8 Online Check](http://pep8online.com).
+
+<br>
+
+* ### <span id="testing-lighthouse"><b>Overall Website Performance & Compatibility</b></span>
+
+    To test my websites performance and compatibility, I used [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+    Here is a screenshot of the report:
+
+     <img src="static/readme-images/testing/testing-lighthouse-report.png" alt="Lighthouse Report" width="80%">
+
+<br>
+
+* ### <span id="testing-responsive-design"><b>Responsive Design</b></span>
+
+    In order to test the design on as many devices as possible, I came across a website called [Responsive Test Tool](http://responsivetesttool.com/)
+    It enabled me to test my design on a large range of devices.
+
+* ### <span id="testing-browser-compatibility"><b>Browser Compatibility</b></span>
+
+    To test my site's compatibility, I found a website called [Browserling](https://www.browserling.com/)
+
+    Using this tool I was able to test a range of browsers, some of which I wouldn't otherwise have access to.
+    Unfortunately the site has a limited free version, and an upgrade to a premium plan would be required to access every device they offer, however I'm confident that the site is very compatible on the most popular browsers.
+
+    <img src="" alt="chrome browser test" width="40%">
+    <img src="" alt="firefox browser test" width="40%">
+    <img src="" alt="internet explorer browser test" width="40%">
+    <img src="" alt="opera browser test" width="40%">
+
+* ### <span id="testing-links"><b>Link Testing</b></span>
+
+     [Dead Link Checker](https://www.deadlinkchecker.com/)
+
+    Here are the results from the [Dead Link Checker](https://www.deadlinkchecker.com/):
+
+    <img src="" width="80%">
+
+<br>
+
+* ### <span id="testing-user-stories"><b>User Story Testing</b></span>
+
+* ### <span id="testing-problems-during-development"><b>Problems During Development</b></span>
+
+<br>
+
+* ### <span id="testing-bugs"><b>Known Bugs</b></span>
+
+At the time of writing this README, I am not aware of any bugs.
+
+<br>
+
+## <span id="deployment"><b>Deployment</b></span>
+
+In order to deploy the project, you will need the following:
+
+    - Github Account
+    - Gitpod or similar IDE
+   
+* ### <span id="deployment-forking"><b>Forking</b></span>
+
+    To fork this repository, you will need to carry out the following steps;
+
+    - On [Github](https://www.github.com), navigate to the repository you wish to fork.
+
+    - In the top right corner click <b>Fork</b>
+
+## <span id="credits"><b>Credits</b></span>
+
+* ### <span id="credits-code"><b>Code</b></span>
+    
+    * 
+
+* ### <span id="credits-acknowledgments"><b>Acknowledgements</b></span>
+
+    - Thank you to everyone on Slack for help and advice
