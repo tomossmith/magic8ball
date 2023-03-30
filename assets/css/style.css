@@ -8,13 +8,6 @@ body {
     padding: 3vh;
 }
 
-.border {
-    border-radius: 25px;
-    color: rgb(255, 255, 255);
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-}
-
 .text-white {
     color: white;
 }
